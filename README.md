@@ -1,4 +1,4 @@
-# Kintex-7-MIPI-DSI-1.6-inch-LCD
+# Kintex 7 & ZYNQ Ultrascale+ MIPI DSI 1.6" LCD
 
 ## If this project is constructive, welcome to donate a drink to PayPal.
 
@@ -49,7 +49,7 @@ Please contact via EMAIL: briansune@gmail.com
 
 # Project Resource
 
-|FPGA|Video|
+|FPGA|Resources|
 |:-:|:-:|
 |Kintex 7|<img src="./images/K7_16bpp_60fps_1p6inch.png">|
 |Kintex 7|<img src="./images/K7_24bpp_60fps_1p6inch.png">|
@@ -61,7 +61,7 @@ Remarks 1: Ultrascale+ devices and 7 series have different serialization buildin
 
 Remarks 2: Ultrascale+ devices have MIPI physical interface, which no extra resistor-network or front-end ICs are needed.
 
-Remarks 3: The only verilog design that are changed to cope with Ultrascale+ device are the serialization and MMCM blocks.
+Remarks 3: The only Verilog design that are changed to cope with Ultrascale+ device are the serialization and MMCM blocks.
 
 ```
  |-mipi_init_script
